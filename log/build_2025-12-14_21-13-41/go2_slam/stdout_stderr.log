@@ -1,0 +1,9 @@
+running egg_info
+creating ../../../build/go2_slam/go2_slam.egg-info
+writing ../../../build/go2_slam/go2_slam.egg-info/PKG-INFO
+writing dependency_links to ../../../build/go2_slam/go2_slam.egg-info/dependency_links.txt
+writing entry points to ../../../build/go2_slam/go2_slam.egg-info/entry_points.txt
+writing requirements to ../../../build/go2_slam/go2_slam.egg-info/requires.txt
+writing top-level names to ../../../build/go2_slam/go2_slam.egg-info/top_level.txt
+writing manifest file '../../../build/go2_slam/go2_slam.egg-info/SOURCES.txt'
+error: package directory 'go2_slam' does not exist

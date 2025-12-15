@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/launch/navigation.launch.foxy.py
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/launch/navigation.launch.py
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/launch/slam.launch.py
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/params/go2_nav_params.yaml
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/params/go2_nav_params_foxy.yaml
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/ament_index/resource_index/package_run_dependencies/go2_nav
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/ament_index/resource_index/parent_prefix_path/go2_nav
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/environment/path.sh
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/environment/path.dsv
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/local_setup.bash
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/local_setup.sh
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/local_setup.zsh
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/local_setup.dsv
+-- Symlinking: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/package.dsv
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/ament_index/resource_index/packages/go2_nav
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/cmake/go2_navConfig.cmake
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/cmake/go2_navConfig-version.cmake
+-- Up-to-date symlink: /home/unitree/go2_ws/install/go2_nav/share/go2_nav/package.xml

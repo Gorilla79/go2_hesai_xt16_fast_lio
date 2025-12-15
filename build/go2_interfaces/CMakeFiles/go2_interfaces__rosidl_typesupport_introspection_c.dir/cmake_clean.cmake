@@ -1,0 +1,36 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/body_height__type_support.c.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/continuous_gait__type_support.c.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/euler__type_support.c.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/foot_raise_height__type_support.c.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/mode__type_support.c.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/pose__type_support.c.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/speed_level__type_support.c.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/switch_gait__type_support.c.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/switch_joystick__type_support.c.o"
+  "libgo2_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libgo2_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/body_height__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/body_height__type_support.c"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/continuous_gait__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/continuous_gait__type_support.c"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/euler__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/euler__type_support.c"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/foot_raise_height__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/foot_raise_height__type_support.c"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/mode__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/mode__type_support.c"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/pose__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/pose__type_support.c"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/speed_level__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/speed_level__type_support.c"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/switch_gait__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/switch_gait__type_support.c"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/switch_joystick__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/go2_interfaces/srv/detail/switch_joystick__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/go2_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

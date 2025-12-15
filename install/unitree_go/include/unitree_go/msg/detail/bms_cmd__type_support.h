@@ -1,0 +1,1 @@
+/home/unitree/go2_ws/build/unitree_go/rosidl_generator_c/unitree_go/msg/detail/bms_cmd__type_support.h

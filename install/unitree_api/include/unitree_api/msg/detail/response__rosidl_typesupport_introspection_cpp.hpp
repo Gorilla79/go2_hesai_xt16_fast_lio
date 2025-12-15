@@ -1,0 +1,1 @@
+/home/unitree/go2_ws/build/unitree_api/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/response__rosidl_typesupport_introspection_cpp.hpp

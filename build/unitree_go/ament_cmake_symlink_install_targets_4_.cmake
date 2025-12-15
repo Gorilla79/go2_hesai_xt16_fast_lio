@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/unitree/go2_ws/build/unitree_go/rosidl_generator_py/unitree_go/unitree_go_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" "TARGETS" "unitree_go__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/unitree_go")

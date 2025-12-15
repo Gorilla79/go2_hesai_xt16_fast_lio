@@ -1,0 +1,1 @@
+/home/unitree/go2_ws/build/go2_simulation/ament_cmake_environment_hooks/local_setup.sh

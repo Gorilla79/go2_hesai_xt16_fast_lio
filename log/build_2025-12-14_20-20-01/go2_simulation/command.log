@@ -1,0 +1,6 @@
+Invoking command in '/home/unitree/go2_ws/build/go2_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ws/src/go2_robot/go2_simulation -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ws/install/go2_simulation
+Invoked command in '/home/unitree/go2_ws/build/go2_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ws/src/go2_robot/go2_simulation -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ws/install/go2_simulation
+Invoking command in '/home/unitree/go2_ws/build/go2_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/go2_simulation -- -j8 -l8
+Invoked command in '/home/unitree/go2_ws/build/go2_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/go2_simulation -- -j8 -l8
+Invoking command in '/home/unitree/go2_ws/build/go2_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/go2_simulation
+Invoked command in '/home/unitree/go2_ws/build/go2_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/go2_simulation

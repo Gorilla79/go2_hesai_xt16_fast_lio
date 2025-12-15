@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/unitree/go2_ws/build/unitree_api/rosidl_generator_py/unitree_api/libunitree_api__python.so" "TARGETS" "unitree_api__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(go2_interfaces_IDL_FILES "srv/BodyHeight.idl;srv/ContinuousGait.idl;srv/Euler.idl;srv/FootRaiseHeight.idl;srv/Mode.idl;srv/Pose.idl;srv/SpeedLevel.idl;srv/SwitchGait.idl;srv/SwitchJoystick.idl")
+set(go2_interfaces_INTERFACE_FILES "srv/BodyHeight.srv;srv/BodyHeight_Request.msg;srv/BodyHeight_Response.msg;srv/ContinuousGait.srv;srv/ContinuousGait_Request.msg;srv/ContinuousGait_Response.msg;srv/Euler.srv;srv/Euler_Request.msg;srv/Euler_Response.msg;srv/FootRaiseHeight.srv;srv/FootRaiseHeight_Request.msg;srv/FootRaiseHeight_Response.msg;srv/Mode.srv;srv/Mode_Request.msg;srv/Mode_Response.msg;srv/Pose.srv;srv/Pose_Request.msg;srv/Pose_Response.msg;srv/SpeedLevel.srv;srv/SpeedLevel_Request.msg;srv/SpeedLevel_Response.msg;srv/SwitchGait.srv;srv/SwitchGait_Request.msg;srv/SwitchGait_Response.msg;srv/SwitchJoystick.srv;srv/SwitchJoystick_Request.msg;srv/SwitchJoystick_Response.msg")

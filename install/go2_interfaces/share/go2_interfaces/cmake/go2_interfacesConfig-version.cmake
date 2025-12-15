@@ -1,0 +1,1 @@
+/home/unitree/go2_ws/build/go2_interfaces/ament_cmake_core/go2_interfacesConfig-version.cmake

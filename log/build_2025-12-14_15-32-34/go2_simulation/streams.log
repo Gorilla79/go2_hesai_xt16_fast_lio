@@ -1,0 +1,47 @@
+[0.111s] Invoking command in '/home/unitree/go2_ws/build/go2_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ws/src/go2_robot/go2_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ws/install/go2_simulation
+[1.845s] -- The C compiler identification is GNU 11.4.0
+[1.845s] -- The CXX compiler identification is GNU 11.4.0
+[1.845s] -- Check for working C compiler: /usr/bin/cc
+[1.845s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.845s] -- Detecting C compiler ABI info
+[1.845s] -- Detecting C compiler ABI info - done
+[1.845s] -- Detecting C compile features
+[1.845s] -- Detecting C compile features - done
+[1.845s] -- Check for working CXX compiler: /usr/bin/c++
+[1.846s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.846s] -- Detecting CXX compiler ABI info
+[1.846s] -- Detecting CXX compiler ABI info - done
+[1.846s] -- Detecting CXX compile features
+[1.846s] -- Detecting CXX compile features - done
+[1.846s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.846s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.846s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.846s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.846s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.875s] -- Added test 'lint_cmake' to check CMake code style
+[1.877s] -- Added test 'xmllint' to check XML markup files
+[1.883s] -- Configuring done
+[1.895s] -- Generating done
+[1.895s] -- Build files have been written to: /home/unitree/go2_ws/build/go2_simulation
+[1.911s] Invoked command in '/home/unitree/go2_ws/build/go2_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ws/src/go2_robot/go2_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ws/install/go2_simulation
+[1.917s] Invoking command in '/home/unitree/go2_ws/build/go2_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/go2_simulation -- -j8 -l8
+[2.028s] Invoked command in '/home/unitree/go2_ws/build/go2_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/go2_simulation -- -j8 -l8
+[2.030s] Invoking command in '/home/unitree/go2_ws/build/go2_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/go2_simulation
+[2.359s] -- Install configuration: ""
+[2.359s] -- Execute custom install script
+[2.360s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/ament_index/resource_index/package_run_dependencies/go2_simulation
+[2.360s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/ament_index/resource_index/parent_prefix_path/go2_simulation
+[2.360s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/go2_simulation/environment/ament_prefix_path.sh
+[2.360s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/go2_simulation/environment/ament_prefix_path.dsv
+[2.360s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/go2_simulation/environment/path.sh
+[2.360s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/go2_simulation/environment/path.dsv
+[2.360s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/go2_simulation/local_setup.bash
+[2.360s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/go2_simulation/local_setup.sh
+[2.361s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/go2_simulation/local_setup.zsh
+[2.361s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/go2_simulation/local_setup.dsv
+[2.362s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/go2_simulation/package.dsv
+[2.362s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/ament_index/resource_index/packages/go2_simulation
+[2.363s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/go2_simulation/cmake/go2_simulationConfig.cmake
+[2.378s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/go2_simulation/cmake/go2_simulationConfig-version.cmake
+[2.404s] -- Symlinking: /home/unitree/go2_ws/install/go2_simulation/share/go2_simulation/package.xml
+[2.422s] Invoked command in '/home/unitree/go2_ws/build/go2_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/go2_simulation

@@ -1,0 +1,36 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/body_height__type_support.cpp.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/continuous_gait__type_support.cpp.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/euler__type_support.cpp.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/foot_raise_height__type_support.cpp.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/mode__type_support.cpp.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/pose__type_support.cpp.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/speed_level__type_support.cpp.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/switch_gait__type_support.cpp.o"
+  "CMakeFiles/go2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/switch_joystick__type_support.cpp.o"
+  "libgo2_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libgo2_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/body_height__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/continuous_gait__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/body_height__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/continuous_gait__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/euler__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/foot_raise_height__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/mode__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/pose__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/speed_level__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/switch_gait__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/dds_fastrtps/switch_joystick__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/euler__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/foot_raise_height__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/mode__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/speed_level__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/switch_gait__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/go2_interfaces/srv/detail/switch_joystick__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/go2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

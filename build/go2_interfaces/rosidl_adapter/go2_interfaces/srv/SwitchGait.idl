@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from go2_interfaces/srv/SwitchGait.srv
+// generated code does not contain a copyright notice
+
+
+module go2_interfaces {
+  module srv {
+    module SwitchGait_Request_Constants {
+      const int32 IDLE = 0;
+      const int32 TROT = 1;
+      const int32 TROT_RUN_NING = 2;
+      const int32 FORWARD_CLIMBING_MODE = 3;
+      const int32 REVERSE_CLIMBING_MODE = 4;
+    };
+    @verbatim (language="comment", text=
+      " Switch gait")
+    struct SwitchGait_Request {
+      int32 d;
+    };
+    struct SwitchGait_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

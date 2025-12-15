@@ -1,0 +1,4 @@
+Invoking command in '/home/unitree/go2_ws/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/go2_ws/install/go2_slam:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/unitree_go -- -j8 -l8
+Invoked command in '/home/unitree/go2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/go2_ws/install/go2_slam:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/unitree_go -- -j8 -l8
+Invoking command in '/home/unitree/go2_ws/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/go2_ws/install/go2_slam:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/unitree_go
+Invoked command in '/home/unitree/go2_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/go2_ws/install/go2_slam:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/unitree_go

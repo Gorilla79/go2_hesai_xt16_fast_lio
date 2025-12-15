@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from go2_interfaces/srv/BodyHeight.srv
+// generated code does not contain a copyright notice
+
+
+module go2_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " Set the relative height of the body above the ground when standing and walking.")
+    struct BodyHeight_Request {
+      float height;
+    };
+    struct BodyHeight_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

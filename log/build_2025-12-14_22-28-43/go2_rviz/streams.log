@@ -1,0 +1,23 @@
+[0.108s] Invoking command in '/home/unitree/go2_ws/build/go2_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/go2_ws/install/go2_slam:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/go2_rviz -- -j8 -l8
+[0.322s] Invoked command in '/home/unitree/go2_ws/build/go2_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/go2_ws/install/go2_slam:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/go2_rviz -- -j8 -l8
+[0.337s] Invoking command in '/home/unitree/go2_ws/build/go2_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/go2_ws/install/go2_slam:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/go2_rviz
+[0.398s] -- Install configuration: ""
+[0.398s] -- Execute custom install script
+[0.398s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/launch/rviz.launch.py
+[0.399s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/config/go2_rviz.rviz
+[0.399s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/ament_index/resource_index/package_run_dependencies/go2_rviz
+[0.399s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/ament_index/resource_index/parent_prefix_path/go2_rviz
+[0.399s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/environment/ament_prefix_path.sh
+[0.399s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/environment/ament_prefix_path.dsv
+[0.399s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/environment/path.sh
+[0.399s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/environment/path.dsv
+[0.399s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/local_setup.bash
+[0.399s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/local_setup.sh
+[0.399s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/local_setup.zsh
+[0.399s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/local_setup.dsv
+[0.400s] -- Symlinking: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/package.dsv
+[0.428s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/ament_index/resource_index/packages/go2_rviz
+[0.434s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/cmake/go2_rvizConfig.cmake
+[0.434s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/cmake/go2_rvizConfig-version.cmake
+[0.434s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_rviz/share/go2_rviz/package.xml
+[0.542s] Invoked command in '/home/unitree/go2_ws/build/go2_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/go2_ws/install/go2_slam:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/go2_rviz

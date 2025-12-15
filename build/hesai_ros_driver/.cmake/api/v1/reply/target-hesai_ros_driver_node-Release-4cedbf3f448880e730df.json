@@ -1,0 +1,778 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "hesai_ros_driver_node"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"ament_target_dependencies",
+			"rosidl_target_interfaces",
+			"add_dependencies",
+			"add_compile_options",
+			"add_definitions",
+			"include",
+			"find_package",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake",
+			"/opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake",
+			"/opt/ros/foxy/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/foxy/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake",
+			"/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 200,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 252,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 53,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 50,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 141,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 286,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 48,
+				"parent" : 12
+			},
+			{
+				"file" : 5,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 15,
+				"parent" : 14
+			},
+			{
+				"file" : 4,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 41,
+				"parent" : 16
+			},
+			{
+				"file" : 3,
+				"parent" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 25,
+				"parent" : 18
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 211,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 52,
+				"parent" : 5
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG   -O3 -std=c++14"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ATOMIC_DYN_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_THREAD_DYN_LINK"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "PROJECT_PATH=\"/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0\""
+				},
+				{
+					"backtrace" : 4,
+					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "ROS2_FOUND"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "ROS_PACKAGE_NAME=\"hesai_ros_driver\""
+				},
+				{
+					"backtrace" : 4,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "WITH_PTCS_USE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 20,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/manager"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/msg/ros_msg"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/msg/rs_msg"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/utility"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/unitree/go2_ws/build/hesai_ros_driver"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/unitree/go2_ws/build/hesai_ros_driver/rosidl_generator_cpp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/driver"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/algorithm"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/Lidar"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/Logger/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/Common/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/UdpProtocol"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/UdpParser/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/UdpParser/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/UdpParser"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/../algorithm"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/PtcClient/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/PtcParser/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/PtcParser"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/Source/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/Container/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/Container/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/src/driver/HesaiLidar_SDK_2.0/libhesai/SerialClient/include"
+				},
+				{
+					"backtrace" : 23,
+					"isSystem" : true,
+					"path" : "/opt/ros/foxy/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "hesai_ros_driver::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "hesai_ros_driver__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "hesai_sdk_lib::@7740dfa422c4e9a54568"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "udpParser_lib::@43583181f402ad81a691"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ptcClient_lib::@43583181f402ad81a691"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "lidar_lib::@43583181f402ad81a691"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "source_lib::@43583181f402ad81a691"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "serialClient_lib::@43583181f402ad81a691"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "platutils_lib::@43583181f402ad81a691"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "log_lib::@43583181f402ad81a691"
+		}
+	],
+	"id" : "hesai_ros_driver_node::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/unitree/go2_ws/build/hesai_ros_driver/src/driver/HesaiLidar_SDK_2.0:/home/unitree/go2_ws/build/hesai_ros_driver/src/driver/HesaiLidar_SDK_2.0/libhesai:/opt/ros/foxy/lib:/home/unitree/go2_ws/build/hesai_ros_driver",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/aarch64-linux-gnu/libyaml-cpp.so.0.6.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/driver/HesaiLidar_SDK_2.0/libhesai_sdk_lib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/driver/HesaiLidar_SDK_2.0/libhesai/liblidar_lib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/driver/HesaiLidar_SDK_2.0/libhesai/libptcClient_lib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/driver/HesaiLidar_SDK_2.0/libhesai/libserialClient_lib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/driver/HesaiLidar_SDK_2.0/libhesai/libudpParser_lib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/libament_index_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/librclcpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "libhesai_ros_driver__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/aarch64-linux-gnu/libboost_atomic.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/aarch64-linux-gnu/libssl.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/aarch64-linux-gnu/libcrypto.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/driver/HesaiLidar_SDK_2.0/libhesai/libsource_lib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/driver/HesaiLidar_SDK_2.0/libhesai/libplatutils_lib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/driver/HesaiLidar_SDK_2.0/libhesai/liblog_lib.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/liblibstatistics_collector.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librcl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librmw_implementation.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librmw.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librcl_logging_spdlog.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/aarch64-linux-gnu/libspdlog.so.1.5.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librcl_yaml_param_parser.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libyaml.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librosgraph_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libtracetools.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/librcpputils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/foxy/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "hesai_ros_driver_node",
+	"nameOnDisk" : "hesai_ros_driver_node",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "node/hesai_ros_driver_node.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/manager/node_manager.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

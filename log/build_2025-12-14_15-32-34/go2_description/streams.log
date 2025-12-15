@@ -1,0 +1,66 @@
+[0.127s] Invoking command in '/home/unitree/go2_ws/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ws/src/go2_robot/go2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ws/install/go2_description
+[0.252s] -- The C compiler identification is GNU 11.4.0
+[0.366s] -- The CXX compiler identification is GNU 11.4.0
+[0.378s] -- Check for working C compiler: /usr/bin/cc
+[0.532s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.535s] -- Detecting C compiler ABI info
+[0.702s] -- Detecting C compiler ABI info - done
+[0.718s] -- Detecting C compile features
+[0.719s] -- Detecting C compile features - done
+[0.723s] -- Check for working CXX compiler: /usr/bin/c++
+[0.896s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.900s] -- Detecting CXX compiler ABI info
+[1.074s] -- Detecting CXX compiler ABI info - done
+[1.095s] -- Detecting CXX compile features
+[1.096s] -- Detecting CXX compile features - done
+[1.103s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.166s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.166s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.671s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.730s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.947s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.949s] -- Added test 'lint_cmake' to check CMake code style
+[1.949s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.950s] -- Added test 'xmllint' to check XML markup files
+[1.962s] -- Configuring done
+[1.962s] -- Generating done
+[1.962s] -- Build files have been written to: /home/unitree/go2_ws/build/go2_description
+[1.977s] Invoked command in '/home/unitree/go2_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ws/src/go2_robot/go2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ws/install/go2_description
+[1.980s] Invoking command in '/home/unitree/go2_ws/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/go2_description -- -j8 -l8
+[2.092s] Invoked command in '/home/unitree/go2_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/go2_description -- -j8 -l8
+[2.101s] Invoking command in '/home/unitree/go2_ws/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/go2_description
+[2.136s] -- Install configuration: ""
+[2.137s] -- Execute custom install script
+[2.138s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/launch/robot.launch.py
+[2.155s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/urdf/go2_description.urdf
+[2.176s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/meshes/calf.dae
+[2.198s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/meshes/calf_mirror.dae
+[2.216s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/meshes/foot.dae
+[2.237s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/meshes/hip.dae
+[2.257s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/meshes/thigh.dae
+[2.277s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/meshes/thigh_mirror.dae
+[2.297s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/meshes/trunk.dae
+[2.318s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/dae/base.dae
+[2.337s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/dae/calf.dae
+[2.354s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/dae/calf_mirror.dae
+[2.374s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/dae/foot.dae
+[2.395s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/dae/hip.dae
+[2.415s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/dae/thigh.dae
+[2.439s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/dae/thigh_mirror.dae
+[2.459s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/config/go2_description.rviz
+[2.483s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/ament_index/resource_index/package_run_dependencies/go2_description
+[2.525s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/ament_index/resource_index/parent_prefix_path/go2_description
+[2.546s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/environment/ament_prefix_path.sh
+[2.567s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/environment/ament_prefix_path.dsv
+[2.588s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/environment/path.sh
+[2.608s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/environment/path.dsv
+[2.630s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/local_setup.bash
+[2.650s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/local_setup.sh
+[2.671s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/local_setup.zsh
+[2.692s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/local_setup.dsv
+[2.713s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/package.dsv
+[2.734s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/ament_index/resource_index/packages/go2_description
+[2.755s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/cmake/go2_descriptionConfig.cmake
+[2.773s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/cmake/go2_descriptionConfig-version.cmake
+[2.794s] -- Symlinking: /home/unitree/go2_ws/install/go2_description/share/go2_description/package.xml
+[2.821s] Invoked command in '/home/unitree/go2_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/go2_description

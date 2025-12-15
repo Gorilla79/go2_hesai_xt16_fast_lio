@@ -1,0 +1,9 @@
+/home/unitree/go2_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:srv/BodyHeight.idl
+/home/unitree/go2_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:srv/ContinuousGait.idl
+/home/unitree/go2_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:srv/Euler.idl
+/home/unitree/go2_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:srv/FootRaiseHeight.idl
+/home/unitree/go2_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:srv/Mode.idl
+/home/unitree/go2_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:srv/Pose.idl
+/home/unitree/go2_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:srv/SpeedLevel.idl
+/home/unitree/go2_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:srv/SwitchGait.idl
+/home/unitree/go2_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:srv/SwitchJoystick.idl

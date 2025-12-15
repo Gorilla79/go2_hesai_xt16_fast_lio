@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from go2_interfaces/srv/Pose.srv
+// generated code does not contain a copyright notice
+
+
+module go2_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " Set true to pose and false to restore")
+    struct Pose_Request {
+      boolean flag;
+    };
+    struct Pose_Response {
+      boolean success;
+    };
+  };
+};

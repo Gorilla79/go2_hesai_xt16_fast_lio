@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from go2_interfaces/srv/SwitchJoystick.srv
+// generated code does not contain a copyright notice
+
+
+module go2_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " Native remote control response switch")
+    struct SwitchJoystick_Request {
+      boolean flag;
+    };
+    struct SwitchJoystick_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,238 @@
+[0.125s] Invoking command in '/home/unitree/go2_ws/build/go2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/go2_ws/install/go2_slam:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/go2_interfaces -- -j8 -l8
+[0.300s] [  1%] Built target go2_interfaces__cpp
+[0.300s] [ 12%] Built target go2_interfaces__rosidl_generator_c
+[0.382s] [ 24%] Built target go2_interfaces__rosidl_typesupport_introspection_cpp
+[0.397s] [ 35%] Built target go2_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.407s] [ 47%] Built target go2_interfaces__rosidl_typesupport_cpp
+[0.494s] [ 58%] Built target go2_interfaces__rosidl_typesupport_c
+[0.495s] [ 70%] Built target go2_interfaces__rosidl_typesupport_fastrtps_c
+[0.506s] [ 82%] Built target go2_interfaces__rosidl_typesupport_introspection_c
+[0.559s] [ 82%] Built target go2_interfaces
+[0.603s] [ 83%] Built target go2_interfaces__py
+[0.670s] [ 93%] Built target go2_interfaces__python
+[0.725s] [ 97%] Built target go2_interfaces__rosidl_typesupport_c__pyext
+[0.725s] [ 97%] Built target go2_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.738s] [100%] Built target go2_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.210s] Invoked command in '/home/unitree/go2_ws/build/go2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/go2_ws/install/go2_slam:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/go2_interfaces -- -j8 -l8
+[1.217s] Invoking command in '/home/unitree/go2_ws/build/go2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/go2_ws/install/go2_slam:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/go2_interfaces
+[1.253s] -- Install configuration: ""
+[1.254s] -- Execute custom install script
+[1.255s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/ament_index/resource_index/rosidl_interfaces/go2_interfaces
+[1.255s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.256s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/body_height.h
+[1.256s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/continuous_gait.h
+[1.256s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/body_height__functions.h
+[1.256s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/body_height__struct.h
+[1.257s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/body_height__type_support.h
+[1.257s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/continuous_gait__functions.h
+[1.257s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/continuous_gait__struct.h
+[1.257s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/continuous_gait__type_support.h
+[1.257s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/euler__functions.h
+[1.257s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/euler__struct.h
+[1.258s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/euler__type_support.h
+[1.258s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/foot_raise_height__functions.h
+[1.258s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/foot_raise_height__struct.h
+[1.258s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/foot_raise_height__type_support.h
+[1.258s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/mode__functions.h
+[1.258s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/mode__struct.h
+[1.259s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/mode__type_support.h
+[1.259s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/pose__functions.h
+[1.264s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/pose__struct.h
+[1.272s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/pose__type_support.h
+[1.273s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/speed_level__functions.h
+[1.273s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/speed_level__struct.h
+[1.273s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/speed_level__type_support.h
+[1.274s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_gait__functions.h
+[1.274s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_gait__struct.h
+[1.275s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_gait__type_support.h
+[1.275s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_joystick__functions.h
+[1.276s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_joystick__struct.h
+[1.277s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_joystick__type_support.h
+[1.277s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/euler.h
+[1.277s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/foot_raise_height.h
+[1.280s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/mode.h
+[1.280s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/pose.h
+[1.280s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/speed_level.h
+[1.281s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/switch_gait.h
+[1.281s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/switch_joystick.h
+[1.281s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/environment/library_path.sh
+[1.281s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/environment/library_path.dsv
+[1.282s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.283s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/body_height__rosidl_typesupport_fastrtps_c.h
+[1.283s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/continuous_gait__rosidl_typesupport_fastrtps_c.h
+[1.285s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/euler__rosidl_typesupport_fastrtps_c.h
+[1.285s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/foot_raise_height__rosidl_typesupport_fastrtps_c.h
+[1.286s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/mode__rosidl_typesupport_fastrtps_c.h
+[1.286s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/pose__rosidl_typesupport_fastrtps_c.h
+[1.287s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/speed_level__rosidl_typesupport_fastrtps_c.h
+[1.287s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_gait__rosidl_typesupport_fastrtps_c.h
+[1.287s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_joystick__rosidl_typesupport_fastrtps_c.h
+[1.288s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.289s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.290s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/body_height__rosidl_typesupport_fastrtps_cpp.hpp
+[1.290s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/continuous_gait__rosidl_typesupport_fastrtps_cpp.hpp
+[1.291s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/euler__rosidl_typesupport_fastrtps_cpp.hpp
+[1.292s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/foot_raise_height__rosidl_typesupport_fastrtps_cpp.hpp
+[1.292s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/mode__rosidl_typesupport_fastrtps_cpp.hpp
+[1.293s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.293s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/speed_level__rosidl_typesupport_fastrtps_cpp.hpp
+[1.294s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_gait__rosidl_typesupport_fastrtps_cpp.hpp
+[1.294s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_joystick__rosidl_typesupport_fastrtps_cpp.hpp
+[1.295s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.297s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.297s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/body_height__rosidl_typesupport_introspection_c.h
+[1.298s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/continuous_gait__rosidl_typesupport_introspection_c.h
+[1.298s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/euler__rosidl_typesupport_introspection_c.h
+[1.299s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/foot_raise_height__rosidl_typesupport_introspection_c.h
+[1.299s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/mode__rosidl_typesupport_introspection_c.h
+[1.299s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/pose__rosidl_typesupport_introspection_c.h
+[1.300s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/speed_level__rosidl_typesupport_introspection_c.h
+[1.300s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_gait__rosidl_typesupport_introspection_c.h
+[1.300s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_joystick__rosidl_typesupport_introspection_c.h
+[1.301s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.302s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/body_height.hpp
+[1.302s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/continuous_gait.hpp
+[1.302s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/body_height__builder.hpp
+[1.303s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/body_height__struct.hpp
+[1.303s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/body_height__traits.hpp
+[1.304s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/body_height__type_support.hpp
+[1.304s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/continuous_gait__builder.hpp
+[1.304s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/continuous_gait__struct.hpp
+[1.305s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/continuous_gait__traits.hpp
+[1.316s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/continuous_gait__type_support.hpp
+[1.317s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/euler__builder.hpp
+[1.318s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/euler__struct.hpp
+[1.319s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/euler__traits.hpp
+[1.319s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/euler__type_support.hpp
+[1.322s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/foot_raise_height__builder.hpp
+[1.322s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/foot_raise_height__struct.hpp
+[1.322s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/foot_raise_height__traits.hpp
+[1.322s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/foot_raise_height__type_support.hpp
+[1.322s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/mode__builder.hpp
+[1.322s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/mode__struct.hpp
+[1.323s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/mode__traits.hpp
+[1.323s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/mode__type_support.hpp
+[1.323s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/pose__builder.hpp
+[1.323s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/pose__struct.hpp
+[1.323s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/pose__traits.hpp
+[1.323s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/pose__type_support.hpp
+[1.323s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/speed_level__builder.hpp
+[1.323s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/speed_level__struct.hpp
+[1.323s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/speed_level__traits.hpp
+[1.324s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/speed_level__type_support.hpp
+[1.324s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_gait__builder.hpp
+[1.325s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_gait__struct.hpp
+[1.325s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_gait__traits.hpp
+[1.325s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_gait__type_support.hpp
+[1.326s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_joystick__builder.hpp
+[1.326s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_joystick__struct.hpp
+[1.326s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_joystick__traits.hpp
+[1.327s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_joystick__type_support.hpp
+[1.327s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/euler.hpp
+[1.327s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/foot_raise_height.hpp
+[1.327s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/mode.hpp
+[1.329s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/pose.hpp
+[1.329s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/speed_level.hpp
+[1.330s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/switch_gait.hpp
+[1.330s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/switch_joystick.hpp
+[1.331s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/body_height__rosidl_typesupport_introspection_cpp.hpp
+[1.331s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/continuous_gait__rosidl_typesupport_introspection_cpp.hpp
+[1.332s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/euler__rosidl_typesupport_introspection_cpp.hpp
+[1.332s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/foot_raise_height__rosidl_typesupport_introspection_cpp.hpp
+[1.333s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/mode__rosidl_typesupport_introspection_cpp.hpp
+[1.334s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[1.334s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/speed_level__rosidl_typesupport_introspection_cpp.hpp
+[1.334s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_gait__rosidl_typesupport_introspection_cpp.hpp
+[1.334s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/include/go2_interfaces/srv/detail/switch_joystick__rosidl_typesupport_introspection_cpp.hpp
+[1.335s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/environment/pythonpath.sh
+[1.335s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/environment/pythonpath.dsv
+[1.336s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/__init__.py
+[1.336s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/srv/__init__.py
+[1.336s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/srv/_body_height.py
+[1.337s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/srv/_continuous_gait.py
+[1.337s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/srv/_euler.py
+[1.337s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/srv/_foot_raise_height.py
+[1.338s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/srv/_mode.py
+[1.338s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/srv/_pose.py
+[1.338s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/srv/_speed_level.py
+[1.339s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/srv/_switch_gait.py
+[1.339s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/srv/_switch_joystick.py
+[1.341s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/go2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[1.341s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/go2_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[1.341s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/python3.8/site-packages/go2_interfaces/go2_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[1.341s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/lib/libgo2_interfaces__python.so
+[1.342s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/BodyHeight.idl
+[1.342s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/ContinuousGait.idl
+[1.342s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/Euler.idl
+[1.342s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/FootRaiseHeight.idl
+[1.343s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/Mode.idl
+[1.346s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/Pose.idl
+[1.356s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/SpeedLevel.idl
+[1.357s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/SwitchGait.idl
+[1.357s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/SwitchJoystick.idl
+[1.360s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/BodyHeight.srv
+[1.360s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/BodyHeight_Request.msg
+[1.361s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/BodyHeight_Response.msg
+[1.361s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/ContinuousGait.srv
+[1.363s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/ContinuousGait_Request.msg
+[1.363s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/ContinuousGait_Response.msg
+[1.363s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/Euler.srv
+[1.364s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/Euler_Request.msg
+[1.364s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/Euler_Response.msg
+[1.364s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/FootRaiseHeight.srv
+[1.365s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/FootRaiseHeight_Request.msg
+[1.367s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/FootRaiseHeight_Response.msg
+[1.367s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/Mode.srv
+[1.368s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/Mode_Request.msg
+[1.368s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/Mode_Response.msg
+[1.370s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/Pose.srv
+[1.371s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/Pose_Request.msg
+[1.371s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/Pose_Response.msg
+[1.371s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/SpeedLevel.srv
+[1.371s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/SpeedLevel_Request.msg
+[1.371s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/SpeedLevel_Response.msg
+[1.371s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/SwitchGait.srv
+[1.371s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/SwitchGait_Request.msg
+[1.372s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/SwitchGait_Response.msg
+[1.372s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/SwitchJoystick.srv
+[1.372s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/SwitchJoystick_Request.msg
+[1.372s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/srv/SwitchJoystick_Response.msg
+[1.372s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/ament_index/resource_index/package_run_dependencies/go2_interfaces
+[1.374s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/ament_index/resource_index/parent_prefix_path/go2_interfaces
+[1.374s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/environment/ament_prefix_path.sh
+[1.374s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/environment/ament_prefix_path.dsv
+[1.374s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/environment/path.sh
+[1.375s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/environment/path.dsv
+[1.375s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/local_setup.bash
+[1.375s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/local_setup.sh
+[1.375s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/local_setup.zsh
+[1.376s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/local_setup.dsv
+[1.376s] -- Symlinking: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/package.dsv
+[1.399s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/ament_index/resource_index/packages/go2_interfaces
+[1.401s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.402s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.402s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.403s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.404s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.405s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.405s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.406s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfacesConfig.cmake
+[1.407s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfacesConfig-version.cmake
+[1.408s] -- Up-to-date symlink: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/package.xml
+[1.413s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_generator_c.so
+[1.415s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_typesupport_introspection_c.so
+[1.416s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_typesupport_c.so
+[1.416s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.417s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_typesupport_cpp.so
+[1.508s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_generator_cExport.cmake
+[1.513s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.514s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.514s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.514s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_cExport.cmake
+[1.515s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.515s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_generator_cppExport.cmake
+[1.515s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.515s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.515s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_cppExport.cmake
+[1.515s] -- Up-to-date: /home/unitree/go2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.557s] Invoked command in '/home/unitree/go2_ws/build/go2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/go2_ws/install/go2_slam:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/go2_interfaces

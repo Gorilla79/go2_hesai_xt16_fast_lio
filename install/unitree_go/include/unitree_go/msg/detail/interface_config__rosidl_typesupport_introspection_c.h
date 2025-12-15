@@ -1,0 +1,1 @@
+/home/unitree/go2_ws/build/unitree_go/rosidl_typesupport_introspection_c/unitree_go/msg/detail/interface_config__rosidl_typesupport_introspection_c.h

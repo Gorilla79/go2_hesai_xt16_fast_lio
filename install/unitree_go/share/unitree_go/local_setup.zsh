@@ -1,0 +1,1 @@
+/home/unitree/go2_ws/build/unitree_go/ament_cmake_environment_hooks/local_setup.zsh
