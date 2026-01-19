@@ -1,0 +1,69 @@
+lidar:
+  - driver:
+      use_gpu: false
+      source_type: 1                                  # The type of data source, 1: real-time lidar connection, 2: pcap, 3: packet rosbag, 4: serial    
+      # Depending on the type of source_type, fill in the corresponding configuration block (lidar_udp_type, pcap_type, serial_type)
+      lidar_udp_type:
+        device_ip_address: 192.168.123.20             # host_ip_address. If empty(""), the source ip of the udp point cloud is used
+        udp_port: 2368                                # UDP destination port
+        ptc_port: 9347                                # PTC port of lidar
+        multicast_ip_address: ""
+
+        use_ptc_connected: true                       # Set to false when ptc connection is not used
+        host_ptc_port: 0                              # PTC source port, 0 means auto
+        correction_file_path: "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/config/XT16_Angle_Correction_File-1.csv"   # 각도 보정 파일 경로
+        firetimes_path: "/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/config/XT16_Firetime_Correction_File-1-1.csv"  # 발화 시간 파일 경로
+
+
+        recv_point_cloud_timeout: -1                  # The timeout of receiving point cloud
+        ptc_connect_timeout: -1                       # The timeout of ptc connection
+
+        host_ip_address: ""
+        fault_message_port: 0
+
+        standby_mode: -1                              # The standby mode: [-1] is invalit [0] in operation [1] standby
+        speed: -1                                     # The speed: [-1] invalit, you must make sure your set has been supported by the lidar you are using
+        ptc_mode: 0                                   # The ptc mode: [0] tcp [1] tcp_ssl
+        # tcp_ssl use
+        certFile: ""                                  # Represents the path of the user's certificate
+        privateKeyFile: ""                            # Represents the path of the user's private key 
+        caFile: ""                                    # Represents the path of the CA certificate 
+      
+      # public module
+      use_timestamp_type: 1                 # 0 use point cloud timestamp; 1 use receive timestamp
+      frame_start_azimuth: -1               # 기본값 사용
+      thread_num: 4                         # 데이터 처리 스레드
+      transform_flag: false                 # 좌표 변환 비활성화
+      x: 0                                  # x축 캘리브레이션
+      y: 0                                  # y축 캘리브레이션
+      z: 0                                  # z축 캘리브레이션
+      roll: 0                               # roll 캘리브레이션
+      pitch: 0                              # pitch 캘리브레이션
+      yaw: 0                                # yaw 캘리브레이션
+      fov_start: -1                         # Field of View 시작
+      fov_end: -1                           # Field of View 종료
+      channel_fov_filter_path: ""           # 채널 필터 비활성화
+      multi_fov_filter_ranges: ""           # FoV 필터 비활성화
+      enable_packet_loss_tool: true         # 패킷 손실 감지 도구 활성화
+      distance_correction_flag: false       # 거리 보정 비활성화
+      xt_spot_correction: false             # XT 계층 보정 비활성화
+      device_udp_src_port: 0                # UDP 포트 필터링 비활성화
+      device_fault_port: 0                  # 장애 메시지 포트 필터링 비활성화
+      frame_frequency: 0                    # 기본 프레임 주파수
+      default_frame_frequency: 10.0         # 기본 프레임 주파수 유지
+      echo_mode_filter: 0                   # 반사 모드 필터 비활성화
+
+    ros:
+      ros_frame_id: hesai_lidar                       # Frame id of packet message and point cloud message
+      ros_recv_packet_topic: /lidar_packets           # Topic used to receive lidar packets from rosbag
+      ros_send_packet_topic: /lidar_packets           # Topic used to send lidar raw packets through ROS
+      ros_send_point_cloud_topic: /lidar_points       # Topic used to send point cloud through ROS
+      ros_send_imu_topic: /lidar_imu                  # Topic used to send lidar imu message
+      ros_send_packet_loss_topic: /lidar_packets_loss # Topic used to monitor packets loss condition through ROS
+      # ros_recv_correction_topic: /lidar_corrections # Topic used to receive corrections file from rosbag
+      # ros_send_correction_topic: /lidar_corrections # Topic used to send correction through ROS
+      # ros_send_firetime_topic: /lidar_firetime
+      # ros_send_ptp_topic: /lidar_ptp                # Topic used to send PTP lock status, offset through ROS
+      send_packet_ros: false                          # true: Send packets through ROS 
+      send_point_cloud_ros: true                      # true: Send point cloud through ROS    
+      send_imu_ros: true                              # true: Send imu through ROS    
