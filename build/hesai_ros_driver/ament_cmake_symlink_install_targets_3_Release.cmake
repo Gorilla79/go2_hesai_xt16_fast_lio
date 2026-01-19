@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/unitree/go2_ws/build/hesai_ros_driver/rosidl_generator_py/hesai_ros_driver/hesai_ros_driver_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" "TARGETS" "hesai_ros_driver__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/hesai_ros_driver")

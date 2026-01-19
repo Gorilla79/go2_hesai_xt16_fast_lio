@@ -1,1 +1,0 @@
-/home/unitree/go2_ws/build/hesai_ros_driver/rosidl_generator_cpp/hesai_ros_driver/msg/detail/loss_packet__type_support.hpp

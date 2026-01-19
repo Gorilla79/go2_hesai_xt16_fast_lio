@@ -1,1 +1,0 @@
-/home/unitree/go2_ws/build/unitree_go/rosidl_generator_c/unitree_go/msg/detail/time_spec__struct.h

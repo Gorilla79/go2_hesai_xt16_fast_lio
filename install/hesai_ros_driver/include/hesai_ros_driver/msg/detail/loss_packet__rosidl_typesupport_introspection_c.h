@@ -1,1 +1,0 @@
-/home/unitree/go2_ws/build/hesai_ros_driver/rosidl_typesupport_introspection_c/hesai_ros_driver/msg/detail/loss_packet__rosidl_typesupport_introspection_c.h

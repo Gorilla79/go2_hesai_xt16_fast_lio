@@ -1,6 +1,0 @@
-Invoking command in '/home/unitree/go2_ws/build/go2_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ws/src/go2_robot/go2_rviz -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ws/install/go2_rviz
-Invoked command in '/home/unitree/go2_ws/build/go2_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/go2_ws/src/go2_robot/go2_rviz -DCMAKE_INSTALL_PREFIX=/home/unitree/go2_ws/install/go2_rviz
-Invoking command in '/home/unitree/go2_ws/build/go2_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/go2_rviz -- -j8 -l8
-Invoked command in '/home/unitree/go2_ws/build/go2_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/go2_ws/build/go2_rviz -- -j8 -l8
-Invoking command in '/home/unitree/go2_ws/build/go2_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/go2_rviz
-Invoked command in '/home/unitree/go2_ws/build/go2_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/go2_ws/build/go2_rviz

@@ -1,1 +1,0 @@
-/home/unitree/go2_ws/build/go2_interfaces/rosidl_typesupport_fastrtps_c/go2_interfaces/srv/detail/foot_raise_height__rosidl_typesupport_fastrtps_c.h

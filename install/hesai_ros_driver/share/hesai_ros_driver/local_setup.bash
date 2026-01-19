@@ -1,1 +1,0 @@
-/home/unitree/go2_ws/build/hesai_ros_driver/ament_cmake_environment_hooks/local_setup.bash

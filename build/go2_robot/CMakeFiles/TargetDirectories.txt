@@ -1,9 +1,0 @@
-/home/unitree/go2_ws/build/go2_robot/CMakeFiles/install/local.dir
-/home/unitree/go2_ws/build/go2_robot/CMakeFiles/install.dir
-/home/unitree/go2_ws/build/go2_robot/CMakeFiles/list_install_components.dir
-/home/unitree/go2_ws/build/go2_robot/CMakeFiles/rebuild_cache.dir
-/home/unitree/go2_ws/build/go2_robot/CMakeFiles/edit_cache.dir
-/home/unitree/go2_ws/build/go2_robot/CMakeFiles/test.dir
-/home/unitree/go2_ws/build/go2_robot/CMakeFiles/install/strip.dir
-/home/unitree/go2_ws/build/go2_robot/CMakeFiles/go2_robot_uninstall.dir
-/home/unitree/go2_ws/build/go2_robot/CMakeFiles/uninstall.dir

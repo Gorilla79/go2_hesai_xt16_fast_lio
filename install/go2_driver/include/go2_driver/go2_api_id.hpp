@@ -1,1 +1,0 @@
-/home/unitree/go2_ws/src/go2_robot/go2_driver/include/go2_driver/go2_api_id.hpp

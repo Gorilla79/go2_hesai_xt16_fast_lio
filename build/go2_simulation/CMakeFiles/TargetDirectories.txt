@@ -1,9 +1,0 @@
-/home/unitree/go2_ws/build/go2_simulation/CMakeFiles/install/strip.dir
-/home/unitree/go2_ws/build/go2_simulation/CMakeFiles/install/local.dir
-/home/unitree/go2_ws/build/go2_simulation/CMakeFiles/install.dir
-/home/unitree/go2_ws/build/go2_simulation/CMakeFiles/list_install_components.dir
-/home/unitree/go2_ws/build/go2_simulation/CMakeFiles/rebuild_cache.dir
-/home/unitree/go2_ws/build/go2_simulation/CMakeFiles/edit_cache.dir
-/home/unitree/go2_ws/build/go2_simulation/CMakeFiles/test.dir
-/home/unitree/go2_ws/build/go2_simulation/CMakeFiles/go2_simulation_uninstall.dir
-/home/unitree/go2_ws/build/go2_simulation/CMakeFiles/uninstall.dir

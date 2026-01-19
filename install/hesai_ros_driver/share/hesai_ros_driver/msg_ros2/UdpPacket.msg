@@ -1,1 +1,0 @@
-/home/unitree/go2_ws/src/HesaiLidar_ROS_2.0/msg/msg_ros2/UdpPacket.msg

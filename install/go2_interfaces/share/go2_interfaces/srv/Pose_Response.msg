@@ -1,1 +1,0 @@
-/home/unitree/go2_ws/build/go2_interfaces/rosidl_cmake/srv/Pose_Response.msg

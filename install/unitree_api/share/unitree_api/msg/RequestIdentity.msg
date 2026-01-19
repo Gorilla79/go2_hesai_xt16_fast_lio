@@ -1,1 +1,0 @@
-/home/unitree/go2_ws/src/go2_robot/unitree_api/msg/RequestIdentity.msg

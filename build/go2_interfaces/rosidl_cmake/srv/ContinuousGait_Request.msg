@@ -1,4 +1,0 @@
-# Continuous movement
-
-bool flag
-
