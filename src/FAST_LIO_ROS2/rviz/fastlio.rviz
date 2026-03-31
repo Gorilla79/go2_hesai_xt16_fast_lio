@@ -1,0 +1,395 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+        - /CloudRegistered1
+        - /CloudMap1
+      Splitter Ratio: 0.5
+    Tree Height: 263
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Tool Properties
+    Expanded:
+      - /2D Goal Pose1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+        FL_calf:
+          Value: true
+        FL_calflower:
+          Value: true
+        FL_calflower1:
+          Value: true
+        FL_foot:
+          Value: true
+        FL_hip:
+          Value: true
+        FL_thigh:
+          Value: true
+        FR_calf:
+          Value: true
+        FR_calflower:
+          Value: true
+        FR_calflower1:
+          Value: true
+        FR_foot:
+          Value: true
+        FR_hip:
+          Value: true
+        FR_thigh:
+          Value: true
+        Head_lower:
+          Value: true
+        Head_upper:
+          Value: true
+        RL_calf:
+          Value: true
+        RL_calflower:
+          Value: true
+        RL_calflower1:
+          Value: true
+        RL_foot:
+          Value: true
+        RL_hip:
+          Value: true
+        RL_thigh:
+          Value: true
+        RR_calf:
+          Value: true
+        RR_calflower:
+          Value: true
+        RR_calflower1:
+          Value: true
+        RR_foot:
+          Value: true
+        RR_hip:
+          Value: true
+        RR_thigh:
+          Value: true
+        base_link:
+          Value: true
+        camera_init:
+          Value: true
+        hesai_lidar:
+          Value: true
+        imu:
+          Value: true
+        map_viz:
+          Value: true
+        odom:
+          Value: true
+        radar:
+          Value: true
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: false
+      Tree:
+        camera_init:
+          base_link:
+            FL_hip:
+              FL_thigh:
+                FL_calf:
+                  FL_calflower:
+                    FL_calflower1:
+                      {}
+                  FL_foot:
+                    {}
+            FR_hip:
+              FR_thigh:
+                FR_calf:
+                  FR_calflower:
+                    FR_calflower1:
+                      {}
+                  FR_foot:
+                    {}
+            Head_upper:
+              Head_lower:
+                {}
+            RL_hip:
+              RL_thigh:
+                RL_calf:
+                  RL_calflower:
+                    RL_calflower1:
+                      {}
+                  RL_foot:
+                    {}
+            RR_hip:
+              RR_thigh:
+                RR_calf:
+                  RR_calflower:
+                    RR_calflower1:
+                      {}
+                  RR_foot:
+                    {}
+            hesai_lidar:
+              {}
+            imu:
+              {}
+            radar:
+              {}
+          map_viz:
+            {}
+      Update Interval: 0
+      Value: true
+    - Angle Tolerance: 0.10000000149011612
+      Class: rviz_default_plugins/Odometry
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.30000001192092896
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: true
+      Enabled: true
+      Keep: 100
+      Name: Odometry
+      Position Tolerance: 0.10000000149011612
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.10000000149011612
+        Color: 255; 25; 0
+        Head Length: 0.30000001192092896
+        Head Radius: 0.10000000149011612
+        Shaft Length: 1
+        Shaft Radius: 0.05000000074505806
+        Value: Arrow
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /Odometry
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz_default_plugins/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /path
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 1.4788569211959839
+        Min Value: -0.24463658034801483
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz_default_plugins/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: AxisColor
+      Decay Time: 30
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 186
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: CloudRegistered
+      Position Transformer: XYZ
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /cloud_registered
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz_default_plugins/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 184
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: CloudEffected
+      Position Transformer: XYZ
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.10000000149011612
+      Style: Flat Squares
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /cloud_effected
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: -9999
+        Min Value: 9999
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz_default_plugins/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: AxisColor
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 255
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: CloudMap
+      Position Transformer: XYZ
+      Selectable: true
+      Size (Pixels): 1
+      Size (m): 0.05000000074505806
+      Style: Points
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /Laser_map
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 0; 0; 0
+    Fixed Frame: map_viz
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+      Line color: 128; 128; 0
+    - Class: rviz_default_plugins/SetInitialPose
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /initialpose
+    - Class: rviz_default_plugins/SetGoal
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /goal_pose
+    - Class: rviz_default_plugins/PublishPoint
+      Single click: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /clicked_point
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 5.631999492645264
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.4453982412815094
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz_default_plugins)
+      Yaw: 5.828583240509033
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1016
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd0000000100000000000001cb0000039efc0200000004fb000000100044006900730070006c006100790073010000003d00000192000000c900fffffffb0000001200530065006c0065006300740069006f006e000000018f000000990000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007301000001d5000000b70000005c00fffffffb0000000a00560069006500770073010000029200000149000000a400ffffff000005670000039e00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 1848
+  X: 72
+  Y: 27

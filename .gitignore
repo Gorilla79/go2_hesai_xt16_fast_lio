@@ -1,14 +1,13 @@
-# ROS2 build artifacts
-/build/
-/install/
-/log/
-
-# VSCode
+build/
+install/
+log/
+.DS_Store
+Thumbs.db
 .vscode/
 
 # Python
 __pycache__/
 *.pyc
-
-# OS
-.DS_Store
+nested_git_backup.tar.gz
+nested_git_backup.tar.gz
+hesai_map.pcd

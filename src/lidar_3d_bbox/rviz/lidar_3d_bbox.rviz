@@ -1,0 +1,147 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+    Help Height: 78
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Grid1
+        - /TF1
+        - /RobotModel1
+        - /HesaiCloud1
+        - /HumanBBox1
+      Splitter Ratio: 0.5
+    Tree Height: 700
+
+  - Class: rviz_common/Views
+    Name: Views
+
+  - Class: rviz_common/Tool Properties
+    Name: Tool Properties
+
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Alpha: 0.5
+      Cell Size: 1
+      Color: 160; 160; 160
+      Line Style:
+        Value: Lines
+        Line Width: 0.03
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 40
+      Reference Frame: odom
+      Value: true
+
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Enabled: true
+      Frame Timeout: 15
+      Marker Scale: 0.8
+      Show Arrows: true
+      Show Axes: true
+      Show Names: false
+      Update Interval: 0
+      Value: true
+
+    - Class: rviz_default_plugins/RobotModel
+      Name: RobotModel
+      Enabled: true
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /robot_description
+      Alpha: 1
+      Collision Enabled: false
+      Mass Properties: false
+      Show Axes: false
+      Show Trail: false
+      Update Interval: 0
+      Visual Enabled: true
+      Value: true
+
+    - Class: rviz_default_plugins/PointCloud2
+      Name: HesaiCloud
+      Enabled: true
+      Topic:
+        Depth: 2
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Best Effort
+        Value: /lidar_points
+      Alpha: 1
+      Color Transformer: Intensity
+      Decay Time: 0
+      Position Transformer: XYZ
+      Selectable: true
+      Size (Pixels): 1
+      Size (m): 0.01
+      Style: Points
+      Use Fixed Frame: true
+      Value: true
+
+    - Class: rviz_default_plugins/MarkerArray
+      Name: HumanBBox
+      Enabled: true
+      Namespaces:
+        human_bbox_lines: true
+        human_bbox_text: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /lidar_3d_bboxes
+      Value: true
+
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: odom
+    Frame Rate: 30
+
+  Name: root
+
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 8
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0.5
+      Name: Current View
+      Near Clip Distance: 0.01
+      Pitch: 0.70
+      Target Frame: odom
+      Value: Orbit
+      Yaw: 0.75
+
+Window Geometry:
+  Height: 900
+  Width: 1400
+  X: 80
+  Y: 50
