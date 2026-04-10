@@ -1,0 +1,144 @@
+# =============================================================================
+# LIO-SAM Parameters — Unitree Go2 + Hesai XT16
+# =============================================================================
+#
+# 좌표계 기준 (URDF go2_description.urdf):
+#   hesai_lidar joint: parent=base_link, xyz=[0.145, 0.0, 0.11],  rpy=[0, 0, π/2]
+#   imu joint        : parent=base_link, xyz=[-0.02557, 0.0, 0.04232], rpy=[0, 0, 0]
+#
+# LiDAR → IMU extrinsics (FAST-LIO 검증값 기준):
+#   extrinsicTrans: [0.1710, 0.0, -0.0908]
+#   extrinsicRot:   R_x(π) = diag(1, -1, -1)  → extRPY = [π, 0, 0]
+# =============================================================================
+
+lio_sam:
+  ros__parameters:
+
+    # -------------------------------------------------------------------------
+    # Topics
+    # -------------------------------------------------------------------------
+    # Hesai ROS 2 드라이버가 발행하는 포인트클라우드 토픽
+    pointCloudTopic: "/lidar_points"
+    # Go2 내부 IMU (utlidar 보정값) 토픽
+    imuTopic: "/utlidar/imu_corrected"
+    # LIO-SAM이 내부적으로 사용하는 IMU 오도메트리 (수정 불필요)
+    odomTopic: "odometry/imu"
+    # GPS 토픽 (Go2는 GPS 없음 → 사용 안 함)
+    gpsTopic: "odometry/gps"
+
+    # -------------------------------------------------------------------------
+    # Frames
+    # -------------------------------------------------------------------------
+    lidarFrame:      "hesai_lidar"
+    baselinkFrame:   "base_link"
+    odometryFrame:   "odom"
+    mapFrame:        "map"
+
+    # -------------------------------------------------------------------------
+    # GPS / Heading 초기화
+    # -------------------------------------------------------------------------
+    useImuHeadingInitialization: false   # GPS 없으므로 false
+    useGpsElevation:             false
+    gpsCovThreshold:             2.0
+    poseCovThreshold:            25.0
+
+    # -------------------------------------------------------------------------
+    # PCD 저장
+    # -------------------------------------------------------------------------
+    savePCD:          false
+    savePCDDirectory: "/tmp/go2_liosam2_map"
+
+    # -------------------------------------------------------------------------
+    # 센서 설정 — Hesai XT16 (기계식 16채널)
+    # -------------------------------------------------------------------------
+    # sensor 옵션: velodyne / ouster / livox / hesai
+    # XT16은 Velodyne VLP-16과 동일한 ring 번호 구조 사용
+    sensor:        velodyne
+    N_SCAN:        16       # 채널(링) 수
+    Horizon_SCAN:  1800     # 방위각 해상도: 360° / 0.2° = 1800  (10 Hz 기준)
+    downsampleRate: 1       # 다운샘플 없음 (데이터 충분)
+    lidarMinRange: 0.5      # XT16 최소 유효 거리 [m]
+    lidarMaxRange: 100.0    # XT16 최대 측정 거리 [m]
+
+    # -------------------------------------------------------------------------
+    # IMU 노이즈 파라미터 — Go2 내장 IMU (Bosch BMI088 계열)
+    # 아래 값은 일반적인 중급 MEMS IMU 초기값; calibration 후 정밀화 권장
+    # -------------------------------------------------------------------------
+    imuAccNoise:  3.9939570888164143e-03
+    imuGyrNoise:  1.5636343949698187e-03
+    imuAccBiasN:  6.4356659353532566e-05
+    imuGyrBiasN:  3.5640318696367613e-05
+    imuGravity:   9.80511
+    imuRPYWeight: 0.01       # IMU RPY 가중치 (낮을수록 LiDAR odometry 신뢰)
+
+    # -------------------------------------------------------------------------
+    # Extrinsic Calibration — LiDAR to IMU
+    # -------------------------------------------------------------------------
+    # FAST-LIO 검증값: LiDAR 좌표계 → IMU 좌표계 변환
+    #   Translation: IMU에서 LiDAR까지의 벡터 (LiDAR 좌표계 기준)
+    #   Rotation:    R_x(π) — Y·Z 축 반전 (LiDAR가 뒤집혀 장착)
+    extrinsicTrans: [0.1710, 0.0, -0.0908]
+
+    # Row-major 3×3 rotation matrix (LiDAR → IMU)
+    # R_x(π) = [[1,0,0],[0,-1,0],[0,0,-1]]
+    extrinsicRot: [1.0,  0.0,  0.0,
+                   0.0, -1.0,  0.0,
+                   0.0,  0.0, -1.0]
+
+    # extrinsicRPY: LIO-SAM은 extrinsicRot과 동일한 행렬을 RPY 형식으로도 받음
+    extrinsicRPY: [1.0,  0.0,  0.0,
+                   0.0, -1.0,  0.0,
+                   0.0,  0.0, -1.0]
+
+    # -------------------------------------------------------------------------
+    # LOAM Feature Extraction 임계값
+    # -------------------------------------------------------------------------
+    edgeThreshold:               0.1
+    surfThreshold:               0.1
+    edgeFeatureMinValidNum:      10
+    surfFeatureMinValidNum:      100
+
+    # -------------------------------------------------------------------------
+    # Voxel Filter 크기 [m]
+    # -------------------------------------------------------------------------
+    odometrySurfLeafSize:    0.4   # Scan-to-scan odometry
+    mappingCornerLeafSize:   0.2   # Edge feature map
+    mappingSurfLeafSize:     0.4   # Planar feature map
+
+    # -------------------------------------------------------------------------
+    # 로봇 운동 제약 (실외 4족보행 → 제약 완화)
+    # -------------------------------------------------------------------------
+    z_tollerance:         1000.0   # 높이 변화 허용 (언덕, 계단 대비)
+    rotation_tollerance:  1000.0   # 자세 변화 허용 (4족보행 특성)
+
+    # -------------------------------------------------------------------------
+    # CPU / 처리 설정
+    # -------------------------------------------------------------------------
+    numberOfCores:           4     # 사용할 CPU 코어 수
+    mappingProcessInterval:  0.15  # 맵 업데이트 주기 [s]
+
+    # -------------------------------------------------------------------------
+    # 주변 Keyframe 관리
+    # -------------------------------------------------------------------------
+    surroundingkeyframeAddingDistThreshold:  1.0   # 새 keyframe 추가 거리 [m]
+    surroundingkeyframeAddingAngleThreshold: 0.2   # 새 keyframe 추가 각도 [rad]
+    surroundingKeyframeDensity:              2.0   # 주변 keyframe 밀도 [m]
+    surroundingKeyframeSearchRadius:         50.0  # 주변 keyframe 탐색 반경 [m]
+
+    # -------------------------------------------------------------------------
+    # Loop Closure
+    # -------------------------------------------------------------------------
+    loopClosureEnableFlag:           true
+    loopClosureFrequency:            1.0    # Loop closure 탐색 주기 [Hz]
+    surroundingKeyframeSize:         50
+    historyKeyframeSearchRadius:     15.0   # 루프 탐색 반경 [m]
+    historyKeyframeSearchTimeDiff:   30.0   # 루프 탐색 최소 시간 차이 [s]
+    historyKeyframeSearchNum:        25     # ICP에 사용할 후보 keyframe 수
+    historyKeyframeFitnessScore:     0.3    # ICP 매칭 품질 임계값 (낮을수록 엄격)
+
+    # -------------------------------------------------------------------------
+    # 전역 맵 시각화 (오프라인 후처리용)
+    # -------------------------------------------------------------------------
+    globalMapVisualizationSearchRadius: 1000.0
+    globalMapVisualizationPoseDensity:  10.0
+    globalMapVisualizationLeafSize:     1.0
