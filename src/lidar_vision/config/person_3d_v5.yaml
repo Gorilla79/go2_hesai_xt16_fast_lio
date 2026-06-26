@@ -1,0 +1,88 @@
+/**:
+  ros__parameters:
+    # Topics and frames
+    lidar_topic: "/lidar_points"
+    lidar_points_frame: "lidar"
+    output_frame: "base_link"
+    obstacle_marker_topic: "/dynamic_obstacle_markers"
+    dynamic_cloud_topic: "/dynamic_obstacle_points"
+
+    # Main loop
+    target_fps: 10.0
+
+    # Front camera semantic assistance
+    camera_width: 640
+    camera_height: 480
+    camera_fps: 30
+    image_rotate: "none"
+    enable_front_semantics: true
+    semantic_every_n_frames: 3
+
+    # YOLO
+    yolo_imgsz: 640
+    yolo_confidence: 0.35
+    yolo_iou: 0.55
+    yolo_device: "0"
+    use_half: true
+
+    # 360-degree LiDAR filtering
+    min_range_m: 0.30
+    max_range_m: 10.0
+    height_min_m: 0.12
+    height_max_m: 2.50
+
+    # Go2 body rejection
+    robot_x_min_m: -0.60
+    robot_x_max_m: 0.60
+    robot_y_min_m: -0.40
+    robot_y_max_m: 0.40
+    robot_z_min_m: -0.30
+    robot_z_max_m: 0.65
+
+    # Fast BEV occupancy
+    bev_range_m: 8.0
+    bev_resolution_m: 0.10
+    min_points_per_cell: 1
+
+    # Static background model
+    background_warmup_frames: 20
+    background_alpha: 0.03
+    background_threshold: 0.65
+    motion_use_frame_difference: true
+
+    # Motion-mask morphology
+    motion_open_kernel: 2
+    motion_close_kernel: 5
+    motion_dilate_kernel: 5
+    min_motion_cells: 3
+    max_motion_cells: 500
+    component_margin_cells: 2
+
+    # Dynamic candidate geometry
+    min_candidate_points: 4
+    min_candidate_height_m: 0.12
+    max_candidate_height_m: 2.50
+    max_candidate_width_m: 2.50
+    max_candidate_depth_m: 2.50
+    box_percentile_low: 5.0
+    box_percentile_high: 95.0
+
+    # Lightweight tracking
+    track_match_distance_m: 0.90
+    track_velocity_alpha: 0.50
+    track_max_missed: 5
+    dynamic_speed_threshold_mps: 0.12
+    dynamic_confirm_age: 2
+
+    # Sector classification
+    front_half_angle_deg: 55.0
+    rear_half_angle_deg: 55.0
+
+    # Front camera association
+    camera_association_margin_px: 35
+
+    # Display and ROS visualization
+    show_gui: true
+    window_width: 1500
+    window_height: 820
+    marker_lifetime_sec: 0.35

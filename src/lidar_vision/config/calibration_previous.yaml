@@ -1,0 +1,15 @@
+/**:
+  ros__parameters:
+    camera_base_x: 0.340
+    camera_base_y: 0.040
+    camera_base_z: 0.390
+    camera_roll_deg: 0.0
+    camera_pitch_deg: 0.0
+    camera_yaw_deg: -0.5
+
+    lidar_base_x: 0.150
+    lidar_base_y: 0.000
+    lidar_base_z: 0.250
+    lidar_roll_deg: -6.0
+    lidar_pitch_deg: 0.0
+    lidar_yaw_deg: 90.0
